@@ -91,19 +91,19 @@ public class Robot {
             default:
             case RIGHT:
                 x++;
-                System.out.println("Шаг направо.");
+                System.out.println("Step right.");
                 break;
             case LEFT:
                 x--;
-                System.out.println("Шаг налево.");
+                System.out.println("Step left.");
                 break;
             case UP:
                 y++;
-                System.out.println("Шаг вперед.");
+                System.out.println("Step forward.");
                 break;
             case DOWN:
                 y--;
-                System.out.println("Шаг назад.");
+                System.out.println("Step back.");
                 break;
         }
     }
