@@ -1,14 +1,5 @@
 package com.company;
 
-public enum Direction {
-    UP,
-    DOWN,
-    LEFT,
-    RIGHT
-}
-
-package com.company;
-
 public class Robot {
     Direction direction = Direction.UP;
     private int x = 0;
