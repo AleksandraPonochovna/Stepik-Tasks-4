@@ -11,7 +11,7 @@ public class Robot {
         Robot robot = new Robot();
         robot.moveRobot(robot, toX, toY);
     }
-
+    
     public static void moveRobot(Robot robot, int toX, int toY) {
         if (robot.getY() < toY) {
             while (robot.getDirection() != Direction.UP) {
